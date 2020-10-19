@@ -15,7 +15,7 @@ for how to get started.
 
 ## Dialect
 
-[Dialect][dialect] is a translation application for GNOME based on
+[Dialect][dialect] is an application for text translation based on
 Google Translate. It remembers your translation history and supports
 features such as automatic language detection and text to speech. The
 user interface is minimalistic and mimics the Google Translate tool
@@ -36,7 +36,7 @@ sudo dnf install dialect
 
 ## GitHub CLI
 [gh][gh] is an official GitHub command-line client. It provides fast
-access and full control of your project issues, pull requests, and
+access and full control over your project issues, pull requests, and
 releases right in the terminal. Issues (and everything else) can also
 be easily viewed in the web browser for a more standard user interface
 or sharing with others.
@@ -57,7 +57,7 @@ sudo dnf install github-cli
 ## Glide
 [Glide][glide] is a minimalistic media player based on GStreamer. It
 can play both local and remote files in any multimedia format
-supported by GStreamer itself. If you are in a need of multiplatform
+supported by GStreamer itself. If you are in a need of a multiplatform
 media player with a simple user interface, you might give Glide a try.
 
 ![Glide][glide-img]
@@ -75,10 +75,10 @@ sudo dnf install glide-rs
 
 ## Vim ALE
 
-[ALE][vim-ale] is a plugin for Vim providing syntax and semantic error
-checking. It also provides support for fixing code and many other
-IDE-like features such as TAB-completion, jumping to definitions,
-finding references, viewing documentation, etc.
+[ALE][vim-ale] is a plugin for Vim text editor, providing syntax and
+semantic error checking. It also brings support for fixing code and
+many other IDE-like features such as TAB-completion, jumping to
+definitions, finding references, viewing documentation, etc.
 
 ![Vim ALE][vim-ale-img]
 
@@ -106,6 +106,10 @@ sudo dnf install vim-ale
 [gh]: https://github.com/cli/cli
 [gh-copr]: https://copr.fedorainfracloud.org/coprs/jdoss/github-cli/
 [gh-img]: img/github-cli.png
+
+[glide]: https://github.com/philn/glide
+[glide-copr]: https://copr.fedorainfracloud.org/coprs/atim/glide-rs/
+[glide-img]: img/glide.png
 
 [vim-ale]: https://github.com/dense-analysis/ale
 [vim-ale-copr]: https://copr.fedorainfracloud.org/coprs/praiskup/vim-ale/
