@@ -3,7 +3,7 @@
 COPR is a [collection][copr] of personal repositories for software
 that isn’t carried in Fedora. Some software doesn’t conform to
 standards that allow easy packaging. Or it may not meet other Fedora
-standards, despite being free and open source. COPR can offer these
+standards, despite being free and open-source. COPR can offer these
 projects outside the Fedora set of packages. Software in COPR isn’t
 supported by Fedora infrastructure or signed by the project. However,
 it can be a neat way to try new or experimental software.
@@ -35,10 +35,10 @@ sudo dnf install dialect
 
 
 ## GitHub CLI
-[gh][gh] is an official GitHub commandline client. It provides a fast
-access and full control of your project issues, pull requests and
+[gh][gh] is an official GitHub command-line client. It provides fast
+access and full control of your project issues, pull requests, and
 releases right in the terminal. Issues (and everything else) can also
-be easily viewed in the web browser for more standard user interface
+be easily viewed in the web browser for a more standard user interface
 or sharing with others.
 
 ![GitHub CLI][gh-img]
@@ -56,7 +56,7 @@ sudo dnf install github-cli
 
 ## Glide
 [Glide][glide] is a minimalistic media player based on GStreamer. It
-is able to play both local and remote files in any multimedia format
+can play both local and remote files in any multimedia format
 supported by GStreamer itself. If you are in a need of multiplatform
 media player with a simple user interface, you might give Glide a try.
 
@@ -85,7 +85,7 @@ finding references, viewing documentation, etc.
 ### Installation instructions
 
 The [repo][vim-ale-copr] currently provides `vim-ale` for Fedora 31,
-32, 33 and Rawhide, as well as for EPEL8. To install it, use these
+32, 33, and Rawhide, as well as for EPEL8. To install it, use these
 commands:
 
 ```
