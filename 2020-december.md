@@ -29,7 +29,7 @@ white noise are also available.
 
 ### Installation instructions
 
-The [repo][dialect-copr] currently provides Blanket for Fedora 32
+The [repo][blanket-copr] currently provides Blanket for Fedora 32
 and 33. To install it, use these commands:
 
 ```
@@ -118,7 +118,7 @@ the times of their responses.
 
 ### Installation instructions
 
-The [repo][dialect-copr] currently provides gping for Fedora 32, 33,
+The [repo][gping-copr] currently provides gping for Fedora 32, 33,
 and Fedora Rawhide. As well as for EPEL 7 and 8. To install it, use these commands:
 
 ```
