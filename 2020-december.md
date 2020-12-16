@@ -17,6 +17,8 @@ for how to get started.
 
 TODO
 
+![Blanket][blanket-img]
+
 ### Installation instructions
 
 The [repo][dialect-copr] currently provides Blanket for Fedora 32
@@ -31,6 +33,8 @@ sudo dnf install blanket
 ## k9s
 
 TODO
+
+![k9s][k9s-img]
 
 ### Installation instructions
 
@@ -50,6 +54,8 @@ sudo dnf install k9s
 
 TODO
 
+![rhbzquery][rhbzquery-img]
+
 ### Installation instructions
 
 The [repo][rhbzquery-copr] currently provides `rhbzquery` for Fedora
@@ -67,6 +73,8 @@ sudo dnf install rhbzquery
 ## solarized
 
 TODO
+
+![solarized][solarized-img]
 
 ### Installation instructions
 
@@ -90,6 +98,8 @@ TODO Use gnome-tweak-tool for changing the theme
 ## gping
 
 TODO
+
+![gping][gping-img]
 
 ### Installation instructions
 
