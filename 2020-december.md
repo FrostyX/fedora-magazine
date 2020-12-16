@@ -85,7 +85,7 @@ sudo dnf install rhbzquery
 
 ## SolArc theme
 
-[krouma/solarized][solarc-project] project provides [SolArc][solarc]
+[krouma/solarized][solarc-copr] project provides [SolArc][solarc]
 theme for GTK, xfwm, gnome-shell, cinnamon, and metacity. SolArc is a
 flat theme with transparent elements based on the
 [solarized][solarized] color palette by [Ethan
@@ -95,7 +95,7 @@ Schoonover][altercation] and [Arc theme][arc-theme].
 
 ### Installation instructions
 
-The [repo][solarized-copr] currently provides SolArc theme for Fedora
+The [repo][solarc-copr] currently provides SolArc theme for Fedora
 33, Fedora Rawhide, EPEL 7, 8, and Centos Stream. To install it, use
 these commands:
 
