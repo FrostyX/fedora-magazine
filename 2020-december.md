@@ -20,7 +20,7 @@ which may potentially improve your focus and increase your
 productivity. Alternatively, it may help you relax and fall asleep
 in a noisy environment. No matter what time it is or where you are,
 Blanket allows you to wake up while birds are chirping, work
-surrounded by friendly coffee shop chatter or a distant city traffic,
+surrounded by friendly coffee shop chatter or distant city traffic,
 and then sleep like a log next to a fireplace while it is raining
 outside. Other popular choices for background sounds such as pink and
 white noise are also available.
@@ -42,7 +42,7 @@ sudo dnf install blanket
 
 [k9s][k9s] is a command-line tool for managing Kubernetes clusters. It
 allows you to list and interact with running pods, read their logs,
-dig through used resources and overall make the Kubernetes life
+dig through used resources, and overall make the Kubernetes life
 easier. With its extensibility through plugins and customizable UI,
 k9s is welcoming to power-users.
 
@@ -66,9 +66,9 @@ sudo dnf install k9s
 ## rhbzquery
 
 [rhbzquery][rhbzquery] is a simple tool for querying the Fedora
-bugzilla instance. It provides interface for specifying the search
+Bugzilla instance. It provides an interface for specifying the search
 query but it doesn't list results in the command-line. Instead,
-`rhbzquery` generates bugzilla URL and opens it in a web browser.
+`rhbzquery` generates a Bugzilla URL and opens it in a web browser.
 
 ![rhbzquery][rhbzquery-img]
 
@@ -96,7 +96,7 @@ Schoonover][altercation] and [Arc theme][arc-theme].
 ### Installation instructions
 
 The [repo][solarized-copr] currently provides SolArc theme for Fedora
-33, Fedora Rawhide, EPEL 7, 8 and Centos Stream. To install it, use
+33, Fedora Rawhide, EPEL 7, 8, and Centos Stream. To install it, use
 these commands:
 
 ```
