@@ -148,6 +148,7 @@ sudo dnf install gping
 [solarc-copr]: https://copr.fedorainfracloud.org/coprs/krouma/solarized/
 [altercation]: https://github.com/altercation
 [arc-theme]: https://github.com/jnsh/arc-theme
+[solarized]: https://ethanschoonover.com/solarized/
 [tweaks]: https://fedoramagazine.org/tweaking-the-look-of-fedora-workstation-with-themes/
 [solarc-img]: img/solarized.png
 
