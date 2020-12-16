@@ -15,7 +15,14 @@ for how to get started.
 
 ## Blanket
 
-TODO
+[Blanket][blanket] is an application for playing background
+sounds. Listening to friendly sounds may improve your focus and
+increase your productivity. Or helps you to relax and fall asleep in a
+noisy environment. No matter what time it is or where you are, Blanket
+allows you to wake up while birds are chirping, work surrounded by
+friendly coffee shop chatter or a distant city traffic, and then sleep
+like a log next to a fireplace while it is raining outside. Other
+popular choices for background sounds are pink and white noise.
 
 ![Blanket][blanket-img]
 
@@ -32,9 +39,17 @@ sudo dnf install blanket
 
 ## k9s
 
-TODO
+[k9s][k9s] is a command-line tool for managing Kubernetes clusters. It
+allows you to list and interact with running pods, read their logs,
+dig through used resources and overall makes the Kubernetes life
+easier. With its extensibility through plugins and customizable UI,
+k9s is welcoming to power-users. Please see the project page for the
+full list of features and many
 
 ![k9s][k9s-img]
+
+For [many more previews][k9s-previews], please see the [project
+page][k9s].
 
 ### Installation instructions
 
@@ -43,16 +58,17 @@ Fedora Rawhide, EPEL 7, 8, Centos Stream, and others. To install it,
 use these commands:
 
 ```
-sudo dnf copr enable luminoso/k9s/
+sudo dnf copr enable luminoso/k9s
 sudo dnf install k9s
 ```
 
 
-
-
 ## rhbzquery
 
-TODO
+[rhbzquery][rhbzquery] is a simple tool for querying the Fedora
+bugzilla instance. It provides interface for specifying the search
+query but it doesn't list the results in the command-line. Instead,
+`rhbzquery` generates bugzilla URL and opens it in a web browser.
 
 ![rhbzquery][rhbzquery-img]
 
@@ -67,14 +83,15 @@ sudo dnf install rhbzquery
 ```
 
 
+## SolArc theme
 
+[krouma/solarized][solarc-project] project provides [SolArc][solarc]
+theme for GTK, xfwm, gnome-shell, cinnamon, and metacity. SolArc is a
+flat theme with transparent elements based on the
+[solarized][solarized] color palette by [Ethan
+Schoonover][altercation] and [Arc theme][arc-theme].
 
-
-## solarized
-
-TODO
-
-![solarized][solarized-img]
+![SolArc][solarc-img]
 
 ### Installation instructions
 
@@ -87,17 +104,15 @@ sudo dnf copr enable krouma/solarized
 sudo dnf install solarc-theme
 ```
 
-TODO Use gnome-tweak-tool for changing the theme
-
-
-
-
-
+After installing the theme, use [GNOME Tweaks][tweaks] to apply it.
 
 
 ## gping
 
-TODO
+[gping][gping] is a more visually intriguing alternative to the
+standard `ping` command, as it shows results in a graph. It is also
+possible to ping multiple hosts at the same time to visually compare
+the times of their responses.
 
 ![gping][gping-img]
 
@@ -113,21 +128,28 @@ sudo dnf install gping
 
 
 
+[copr]: https://copr.fedorainfracloud.org/
+[copr-docs]: https://docs.pagure.org/copr.copr/user_documentation.html
+
 [blanket]: https://github.com/rafaelmardojai/blanket
 [blanket-copr]: https://copr.fedorainfracloud.org/coprs/tuxino/blanket/
 [blanket-img]: img/blanket.png
 
 [k9s]: https://k9scli.io/
 [k9s-copr]: https://copr.fedorainfracloud.org/coprs/luminoso/k9s/
+[k9s-previews]: https://k9scli.io/#-previews
 [k9s-img]: img/k9s.png
 
 [rhbzquery]: https://github.com/juhp/rhbzquery
 [rhbzquery-copr]: https://copr.fedorainfracloud.org/coprs/petersen/rhbzquery/
 [rhbzquery-img]: img/rhbzquery.png
 
-[solarized]: https://github.com/krouma/solarc-theme
-[solarized-copr]: https://copr.fedorainfracloud.org/coprs/krouma/solarized/
-[solarized-img]: img/solarized.png
+[solarc]: https://github.com/krouma/solarc-theme
+[solarc-copr]: https://copr.fedorainfracloud.org/coprs/krouma/solarized/
+[altercation]: https://github.com/altercation
+[arc-theme]: https://github.com/jnsh/arc-theme
+[tweaks]: https://fedoramagazine.org/tweaking-the-look-of-fedora-workstation-with-themes/
+[solarc-img]: img/solarized.png
 
 [gping]: https://github.com/orf/gping
 [gping-copr]: https://copr.fedorainfracloud.org/coprs/atim/gping
