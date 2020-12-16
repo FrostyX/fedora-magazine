@@ -15,14 +15,15 @@ for how to get started.
 
 ## Blanket
 
-[Blanket][blanket] is an application for playing background
-sounds. Listening to friendly sounds may improve your focus and
-increase your productivity. Or helps you to relax and fall asleep in a
-noisy environment. No matter what time it is or where you are, Blanket
-allows you to wake up while birds are chirping, work surrounded by
-friendly coffee shop chatter or a distant city traffic, and then sleep
-like a log next to a fireplace while it is raining outside. Other
-popular choices for background sounds are pink and white noise.
+[Blanket][blanket] is an application for playing background sounds,
+which may potentially improve your focus and increase your
+productivity. Alternatively, it may help you relax and fall asleep
+in a noisy environment. No matter what time it is or where you are,
+Blanket allows you to wake up while birds are chirping, work
+surrounded by friendly coffee shop chatter or a distant city traffic,
+and then sleep like a log next to a fireplace while it is raining
+outside. Other popular choices for background sounds such as pink and
+white noise are also available.
 
 ![Blanket][blanket-img]
 
@@ -41,10 +42,9 @@ sudo dnf install blanket
 
 [k9s][k9s] is a command-line tool for managing Kubernetes clusters. It
 allows you to list and interact with running pods, read their logs,
-dig through used resources and overall makes the Kubernetes life
+dig through used resources and overall make the Kubernetes life
 easier. With its extensibility through plugins and customizable UI,
-k9s is welcoming to power-users. Please see the project page for the
-full list of features and many
+k9s is welcoming to power-users.
 
 ![k9s][k9s-img]
 
@@ -67,7 +67,7 @@ sudo dnf install k9s
 
 [rhbzquery][rhbzquery] is a simple tool for querying the Fedora
 bugzilla instance. It provides interface for specifying the search
-query but it doesn't list the results in the command-line. Instead,
+query but it doesn't list results in the command-line. Instead,
 `rhbzquery` generates bugzilla URL and opens it in a web browser.
 
 ![rhbzquery][rhbzquery-img]
@@ -111,7 +111,7 @@ After installing the theme, use [GNOME Tweaks][tweaks] to apply it.
 
 [gping][gping] is a more visually intriguing alternative to the
 standard `ping` command, as it shows results in a graph. It is also
-possible to ping multiple hosts at the same time to visually compare
+possible to ping multiple hosts at the same time to easily compare
 the times of their responses.
 
 ![gping][gping-img]
