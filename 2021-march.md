@@ -97,8 +97,21 @@ sudo systemctl enable ly
 Finally, restart your computer for the changes to take an effect.
 
 
-## TODO
+## AWS CLI v2
 
+TODO
+
+![aws-cli-2][aws-cli-img]
+
+### Installation instructions
+
+The [repo][aws-cli-copr] currently provides Ly for Fedora 32, 33, 34, and
+Fedora Rawhide. To install it, use these commands:
+
+```
+sudo dnf copr enable spot/aws-cli-2
+sudo dnf install aws-cli-2
+```
 
 
 
@@ -107,13 +120,13 @@ Finally, restart your computer for the changes to take an effect.
 [copr]: https://copr.fedorainfracloud.org/
 [copr-docs]: https://docs.pagure.org/copr.copr/user_documentation.html
 
-[droidcam]: #
+[droidcam]: https://www.dev47apps.com/
 [droidcam-copr]: https://copr.fedorainfracloud.org/coprs/meeuw/droidcam/builds/
-[droidcam-img]: #
+[droidcam-img]: img/droidcam.png
 
 [gemini]: https://gemini.circumlunar.space/
 [gemini-copr]: https://copr.fedorainfracloud.org/coprs/stenstorp/gemini/
-[gemini-img]: #
+[gemini-img]: img/gemini.png
 [castor]: https://git.sr.ht/~julienxx/castor
 [dragonstone]: https://gitlab.com/baschdel/dragonstone
 [kristall]: https://kristall.random-projects.net/
@@ -121,6 +134,10 @@ Finally, restart your computer for the changes to take an effect.
 
 [ly]: https://github.com/nullgemm/ly
 [ly-copr]: https://copr.fedorainfracloud.org/coprs/dhalucario/ly/
-[ly-img]: #
+[ly-img]: img/ly.png
 [ly-support]: https://github.com/nullgemm/ly#support
 [psx-doom-fire]: https://fabiensanglard.net/doom_fire_psx/index.html
+
+[aws-cli]: https://aws.amazon.com/blogs/developer/aws-cli-v2-is-now-generally-available/
+[aws-cli-copr]: https://copr.fedorainfracloud.org/coprs/spot/aws-cli-2/
+[aws-cli-img]: img/aws-cli-2.png
