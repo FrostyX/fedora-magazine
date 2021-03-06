@@ -16,12 +16,12 @@ for how to get started.
 ## DroidCam
 We are living through confusing times being isolated at our homes and
 the majority of our interactions with friends and coworkers takes
-place on some video conference platform. Don't waste your money for an
+place on some video conference platform. Don't waste your money on an
 overpriced webcam if you carry one in your pocket already.
 [DroidCam][droidcam] lets you pair your phone with a computer and use
-it as a dedicated webcam. The connection can be done through USB cable
-or over WiFi. Droidcam provides remote control of the camera and
-allows zooming, using autofocus, toggling the LED ligth and other neat
+it as a dedicated webcam. The connection can be done through a USB
+cable or over WiFi. Droidcam provides remote control of the camera and
+allows zooming, using autofocus, toggling the LED light, and other neat
 features.
 
 ![DroidCam][droidcam-img]
@@ -38,7 +38,7 @@ sudo dnf install droidcam
 
 
 ## Gemini clients
-Have you ever wondered what would internet browsing experience would
+Have you ever wondered what would internet browsing experience
 be if World Wide Web went an entirely different route and didn't adopt
 CSS and client-side scripting? [Gemini][gemini] is a modern
 alternative to the HTTPS protocol albeit it doesn't aim to replace
@@ -66,9 +66,9 @@ sudo dnf install lagrange
 ## Ly
 
 [Ly][ly] is a lightweight TUI (ncurses-like) login manager for Linux
-and BSD. Theoretically it should support all X desktop environments
+and BSD. Theoretically, it should support all X desktop environments
 and window managers and many of them [were tested][ly-support]). Ly
-also provides a basic wayland support (Sway works very
+also provides basic Wayland support (Sway works very
 well). Somewhere in the configuration, there is an easter egg option
 to enable the famous [PSX DOOM fire][psx-doom-fire] animation in the
 background.
@@ -85,7 +85,7 @@ sudo dnf copr enable dhalucario/ly
 sudo dnf install ly
 ```
 
-Before setting up Ly to be your system login screen, run _ly_ comamnd
+Before setting up Ly to be your system login screen, run _ly_ command
 in the terminal to make sure it works properly. Then proceed with
 disabling your current login manager and enabling Ly instead.
 
@@ -99,7 +99,15 @@ Finally, restart your computer for the changes to take an effect.
 
 ## AWS CLI v2
 
-TODO
+[AWS CLI v2][aws-cli-2] brings a steady and methodic evolution of the
+first client version based on community feedback, rather than massive
+redesign. It introduces new mechanisms for configuring credentials and
+newly allows to import credentials from the _.csv_ files generated in
+the AWS Console, and provides support for AWS SSO. Other big
+improvements are server-side auto-completion, and interactive
+parameter generation. A fresh new feature is interactive wizards,
+which provide a higher level of abstraction and combine multiple AWS
+API calls together to create, update, or delete AWS resources.
 
 ![aws-cli-2][aws-cli-img]
 
@@ -112,8 +120,6 @@ Fedora Rawhide. To install it, use these commands:
 sudo dnf copr enable spot/aws-cli-2
 sudo dnf install aws-cli-2
 ```
-
-
 
 
 
