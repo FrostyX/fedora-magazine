@@ -14,15 +14,15 @@ for how to get started.
 
 
 ## DroidCam
-We are living through confusing times being isolated at our homes and
+We are living through confusing times, being isolated at our homes, and
 the majority of our interactions with friends and coworkers takes
 place on some video conference platform. Don't waste your money on an
 overpriced webcam if you carry one in your pocket already.
 [DroidCam][droidcam] lets you pair your phone with a computer and use
 it as a dedicated webcam. The connection can be done through a USB
 cable or over WiFi. Droidcam provides remote control of the camera and
-allows zooming, using autofocus, toggling the LED light, and other neat
-features.
+allows zooming, using autofocus, toggling the LED light, and other
+convenient features.
 
 ![DroidCam][droidcam-img]
 
@@ -42,8 +42,8 @@ Have you ever wondered what would internet browsing experience
 be if World Wide Web went an entirely different route and didn't adopt
 CSS and client-side scripting? [Gemini][gemini] is a modern
 alternative to the HTTPS protocol albeit it doesn't aim to replace
-it. The [stenstorp/gemini][gemini-copr] Copr project provides clients
-for browsing Gemini _websites_, namely [Castor][castor],
+it. The [stenstorp/gemini][gemini-copr] Copr project provides various
+clients for browsing Gemini _websites_, namely [Castor][castor],
 [Dragonstone][dragonstone], [Kristall][kristall], and [Lagrange][lagrange].
 
 ![Castor][gemini-img]
@@ -67,11 +67,11 @@ sudo dnf install lagrange
 
 [Ly][ly] is a lightweight TUI (ncurses-like) login manager for Linux
 and BSD. Theoretically, it should support all X desktop environments
-and window managers and many of them [were tested][ly-support]). Ly
+and window managers (many of them [were tested][ly-support]). Ly
 also provides basic Wayland support (Sway works very
 well). Somewhere in the configuration, there is an easter egg option
 to enable the famous [PSX DOOM fire][psx-doom-fire] animation in the
-background.
+background, which on its own is worth checking out.
 
 ![Ly][ly-img]
 
@@ -99,11 +99,11 @@ Finally, restart your computer for the changes to take an effect.
 
 ## AWS CLI v2
 
-[AWS CLI v2][aws-cli-2] brings a steady and methodic evolution of the
-first client version based on community feedback, rather than massive
-redesign. It introduces new mechanisms for configuring credentials and
+[AWS CLI v2][aws-cli] brings a steady and methodic evolution based on
+the community feedback, rather than a massive redesign of the original
+client. It introduces new mechanisms for configuring credentials and
 newly allows to import credentials from the _.csv_ files generated in
-the AWS Console, and provides support for AWS SSO. Other big
+the AWS Console, and also provides support for AWS SSO. Other big
 improvements are server-side auto-completion, and interactive
 parameter generation. A fresh new feature is interactive wizards,
 which provide a higher level of abstraction and combine multiple AWS
@@ -113,8 +113,8 @@ API calls together to create, update, or delete AWS resources.
 
 ### Installation instructions
 
-The [repo][aws-cli-copr] currently provides Ly for Fedora 32, 33, 34, and
-Fedora Rawhide. To install it, use these commands:
+The [repo][aws-cli-copr] currently provides AWS CLI v2 for Fedora 32, 33, 34,
+and Fedora Rawhide. To install it, use these commands:
 
 ```
 sudo dnf copr enable spot/aws-cli-2
