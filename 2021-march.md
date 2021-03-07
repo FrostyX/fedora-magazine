@@ -105,7 +105,7 @@ client. It introduces new mechanisms for configuring credentials and
 newly allows to import credentials from the _.csv_ files generated in
 the AWS Console, and also provides support for AWS SSO. Other big
 improvements are server-side auto-completion, and interactive
-parameter generation. A fresh new feature is interactive wizards,
+parameters generation. A fresh new feature is interactive wizards,
 which provide a higher level of abstraction and combine multiple AWS
 API calls together to create, update, or delete AWS resources.
 
