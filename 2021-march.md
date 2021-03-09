@@ -29,7 +29,25 @@ convenient features.
 ### Installation instructions
 
 The [repo][droidcam-copr] currently provides DroidCam for Fedora 33.
-To install it, use these commands:
+Before installing it, please update your system and reboot, or make sure you are
+running the latest kernel version and have an appropriate version of
+_kernel-headers_ installed.
+
+```
+sudo dnf update
+sudo reboot
+```
+
+Droidcam depends on _v4l2loopback_ which needs to be installed manually from
+[RPM Fusion Free repository][rpm-fusion-free-repository].
+
+```
+sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install v4l2loopback
+sudo modprobe v4l2loopback
+```
+
+Finally, install the _droidcam_ package.
 
 ```
 sudo dnf copr enable meeuw/droidcam
@@ -129,6 +147,7 @@ sudo dnf install aws-cli-2
 [droidcam]: https://www.dev47apps.com/
 [droidcam-copr]: https://copr.fedorainfracloud.org/coprs/meeuw/droidcam/builds/
 [droidcam-img]: img/droidcam.png
+[rpm-fusion-free-repository]: https://docs.fedoraproject.org/en-US/quick-docs/setup_rpmfusion/#proc_enabling-the-rpmfusion-repositories-using-command-line-utilities_enabling-the-rpmfusion-repositories
 
 [gemini]: https://gemini.circumlunar.space/
 [gemini-copr]: https://copr.fedorainfracloud.org/coprs/stenstorp/gemini/
