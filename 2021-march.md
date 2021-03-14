@@ -13,6 +13,32 @@ you’re new to using COPR, see the [COPR User Documentation][copr-docs]
 for how to get started.
 
 
+## Ytfzf
+[Ytfzf][ytfzf] is a simple command-line tool for searching and
+watching youtube videos. It provides a fast and intuitive interface
+built around fuzzy find utility [fzf][fzf]. It uses
+[youtube-dl][youtube-dl] to download selected videos and opens an
+external video player to watch them. Because of this approach,
+_ytfzf_ is significantly less resource-heavy than a web browser with
+youtube. It supports thumbnails (via [ueberzug][ueberzug]), history
+saving, queueing multiple videos or downloading them for later,
+channel subscriptions, and other handy features. Thanks to the tools
+like [dmenu][dmenu] or [rofi][rofi], it can be used even outside the
+terminal.
+
+![Ytfzf][ytfzf-img]
+
+### Installation instructions
+
+The [repo][ytfzf-copr] currently provides Ytfzf for Fedora
+33 and 34. To install it, use these commands:
+
+```
+sudo dnf copr enable bhoman/ytfzf
+sudo dnf install ytfzf
+```
+
+
 ## DroidCam
 We are living through confusing times, being isolated at our homes, and
 the majority of our interactions with friends and coworkers takes
@@ -143,6 +169,16 @@ sudo dnf install aws-cli-2
 
 [copr]: https://copr.fedorainfracloud.org/
 [copr-docs]: https://docs.pagure.org/copr.copr/user_documentation.html
+
+[ytfzf]: https://github.com/pystardust/ytfzf
+[ytfzf-copr]: https://copr.fedorainfracloud.org/coprs/bhoman/ytfzf/
+[ytfzf-img]: img/ytfzf.png
+[fzf]: https://github.com/junegunn/fzf
+[youtube-dl]: http://ytdl-org.github.io/youtube-dl/
+[ueberzug]: https://github.com/seebye/ueberzug
+[dmenu]: https://tools.suckless.org/dmenu/
+[rofi]: https://github.com/davatorium/rofi
+
 
 [droidcam]: https://www.dev47apps.com/
 [droidcam-copr]: https://copr.fedorainfracloud.org/coprs/meeuw/droidcam/builds/
