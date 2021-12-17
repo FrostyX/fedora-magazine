@@ -54,7 +54,7 @@ interface? The [purple-googlechat][purple-googlechat] plugin for
 this [purple-googlechat][purple-googlechat] plugin provides support
 for Google Chat in your favorite chat program.
 
-TODO Image
+![Google Chat in Pidgin][purple-googlechat-img]
 
 ### Installation instructions
 
