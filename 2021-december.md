@@ -36,7 +36,7 @@ files into your privete, end-to-end encrypted collection.
 ### Installation instructions
 
 The [repo][glow-copr] currently provides Glow for Fedora
-33, 34, 35, and Fedora Rawhide. To install it, use these commands:
+34, 35, and Fedora Rawhide. To install it, use these commands:
 
 ```
 sudo dnf copr enable keefle/glow
@@ -68,7 +68,26 @@ sudo dnf install purple-googlechat
 ```
 
 
-## TODO project 3
+## Git-insight
+[Git-insight][git-insight] renders colorful graphs for git repository
+statistics. The output is comparable to what GitHub shows on the
+Insights tab but in the command-line and not limited to any git
+forge. It allows you to easily see the top contributors for a
+repository, the most frequently updated files, commits in each branch,
+all time trends, and more.
+
+![Git-insight][git-insight-img]
+
+### Installation instructions
+
+The [repo][git-insight-copr] currently provides
+_git-insight_ for Fedora 34, 35, and Fedora Rawhide. To install
+it, use these commands:
+
+```
+sudo dnf copr enable avimehenwal/git-insight
+sudo dnf install git-insight
+```
 
 
 ## TODO project 4
@@ -87,6 +106,11 @@ sudo dnf install purple-googlechat
 
 [purple-googlechat]: https://github.com/EionRobb/purple-googlechat
 [purple-googlechat-copr]: https://copr.fedorainfracloud.org/coprs/praiskup/purple-googlechat/
-[purple-googlechat-img]: #
+[purple-googlechat-img]: img/purple-googlechat.png
 [pidgin]: https://pidgin.im/
 [purple]: https://developer.pidgin.im/wiki/WhatIsLibpurple
+
+
+[git-insight]: https://github.com/avimehenwal/git-insight
+[git-insight-copr]: https://copr.fedorainfracloud.org/coprs/avimehenwal/git-insight
+[git-insight-img]: img/git-insight.png
