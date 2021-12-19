@@ -1,26 +1,21 @@
 # 4 cool new projects to try in COPR for July 2021
 
-Copr is a build-system available for everybody in the Fedora
-community. It hosts thousands of projects of various purpose and
-quality, so keep that in mind when enabling a Copr repository.
+[Copr][copr] is a build-system for anyone in the Fedora community. It
+hosts thousands of projects for various purposes and audiences. Some
+of them should never be installed by anyone, some are already being
+transitioned to the official Fedora Linux repositories. Copr gives you
+the opporunity to install 3rd party software that is not available in
+Fedora Linux repositories, try nightly versions of your dependencies,
+use patched builds of your favorite tools to support some non-standard
+use-case, and to just experiment freely.
 
-People use Copr as a step towards getting their package into the
-official repositories TODO
+If you don't know [how to enable a repository][copr-docs-enable] or if
+you are concerned about whether
+[is it safe to use Copr][copr-docs-security], please consult the
+[project documentation][copr-docs].
 
-
-
-~~COPR is a [collection][copr] of personal repositories for software
-that isn’t carried in Fedora. Some software doesn’t conform to
-standards that allow easy packaging. Or it may not meet other Fedora
-standards, despite being free and open-source. COPR can offer these
-projects outside the Fedora set of packages. Software in COPR isn’t
-supported by Fedora infrastructure or signed by the project. However,
-it can be a neat way to try new or experimental software.~~
-
-~~This article presents a few new and interesting projects in COPR. If
-you’re new to using COPR, see the [COPR User Documentation][copr-docs]
-for how to get started.~~
-
+This article takes a closer look at some interesting projects that
+recently landed in Copr.
 
 
 ## Glow
@@ -90,12 +85,31 @@ sudo dnf install git-insight
 ```
 
 
-## TODO project 4
+## Nightly buids
 
+This time we have something completely different but well representing
+one of the main Copr use-cases. That is development (or nightly)
+versions of packages, that are normally in the official Fedora Linux
+repositories. This may be interesting if you want to try the most
+recent version of some software to see if a particular bug was fixed
+or that a new feature behaves as expected. Also, for software
+developers it may be useful to test their software against the most
+up-to-date dependencies
+
+Many projects builds their nightly versions in Copr, namely
+[Dnf][dnf-copr], [Mock][mock-copr], [Firefox][firefox-copr],
+[PipeWire][pipewire-copr], [FreeCAD][freecad-copr],
+[KiCad][kicad-copr], [AwesomeWM][awesomewm-copr],
+[Noevim][neovim-copr], [MicroShift][microshift-copr], and many, many more.
+
+
+![Nightly builds][nightly-builds]
 
 
 [copr]: https://copr.fedorainfracloud.org/
 [copr-docs]: https://docs.pagure.org/copr.copr/user_documentation.html
+[copr-docs-enable]: https://docs.pagure.org/copr.copr/user_documentation.html#how-to-enable-copr-repository
+[copr-docs-security]: https://docs.pagure.org/copr.copr/user_documentation.html#is-it-safe-to-use-copr
 
 
 [glow]: https://github.com/charmbracelet/glow
@@ -114,3 +128,14 @@ sudo dnf install git-insight
 [git-insight]: https://github.com/avimehenwal/git-insight
 [git-insight-copr]: https://copr.fedorainfracloud.org/coprs/avimehenwal/git-insight
 [git-insight-img]: img/git-insight.png
+
+
+[dnf-copr]: https://copr.fedorainfracloud.org/coprs/rpmsoftwaremanagement/dnf-nightly/
+[mock-copr]: https://copr.fedorainfracloud.org/coprs/g/mock/mock/
+[firefox-copr]: https://copr.fedorainfracloud.org/coprs/proletarius101/firefox-nightly/
+[pipewire-copr]: https://copr.fedorainfracloud.org/coprs/mfrey/pipewire-nightly/
+[freecad-copr]: https://copr.fedorainfracloud.org/coprs/g/freecad/nightly/
+[kicad-copr]: https://copr.fedorainfracloud.org/coprs/bearzeng/kicad-nightly/
+[awesomewm-copr]: https://copr.fedorainfracloud.org/coprs/jcrd/awesome-nightly/
+[neovim-copr]:  https://copr.fedorainfracloud.org/coprs/agriffis/neovim-nightly/
+[microshift-copr]: https://copr.fedorainfracloud.org/coprs/g/redhat-et/microshift-nightly/
