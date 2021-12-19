@@ -1,4 +1,4 @@
-# 4 cool new projects to try in COPR for July 2021
+# 4 cool new projects to try in COPR for December 2021
 
 [Copr][copr] is a build-system for anyone in the Fedora community. It
 hosts thousands of projects for various purposes and audiences. Some
