@@ -3,28 +3,29 @@
 [Copr][copr] is a build-system for anyone in the Fedora community. It
 hosts thousands of projects for various purposes and audiences. Some
 of them should never be installed by anyone, some are already being
-transitioned to the official Fedora Linux repositories. Copr gives you
-the opporunity to install 3rd party software that is not available in
-Fedora Linux repositories, try nightly versions of your dependencies,
-use patched builds of your favorite tools to support some non-standard
-use-case, and to just experiment freely.
+transitioned to the official Fedora Linux repositories, and the rest
+is somewhere in between. Copr gives you the opportunity to install 3rd
+party software that is not available in Fedora Linux repositories, try
+nightly versions of your dependencies, use patched builds of your
+favorite tools to support some non-standard use-case, and just
+experiment freely.
 
 If you don't know [how to enable a repository][copr-docs-enable] or if
 you are concerned about whether
 [is it safe to use Copr][copr-docs-security], please consult the
 [project documentation][copr-docs].
 
-This article takes a closer look at some interesting projects that
-recently landed in Copr.
+This article takes a closer look at interesting projects that recently
+landed in Copr.
 
 
 ## Glow
-[Glow][glow] is a markdown reader for your command-line. It
+[Glow][glow] is a markdown reader for the command line. It
 automatically discovers markdown files in git projects and
-subdirectories but it is also possible to specify path to a local file
+subdirectories, but it also allows to specify a local path
 or an online URL when starting the program. Glow also provides
-integration with the [Charm Cloud][charm-cloud] and allows to _stash_
-files into your privete, end-to-end encrypted collection.
+an integration with the [Charm Cloud][charm-cloud] and allows you to
+_stash_ files into your private, end-to-end encrypted collection.
 
 ![Glow][glow-img]
 
@@ -40,12 +41,12 @@ sudo dnf install glow
 
 
 ## Purple-googlechat
-Are you required to use Google Chat but you dislike the web-based
+Are you required to use Google Chat and dislike the web-based
 interface? The [purple-googlechat][purple-googlechat] plugin for
 [Pidgin][pidgin] and many other chat programs might save you.
 
 
-[Purple][purple] is a library for connecting into IM networks, and
+[Purple][purple] is a library for connecting to IM networks, and
 this [purple-googlechat][purple-googlechat] plugin provides support
 for Google Chat in your favorite chat program.
 
@@ -69,7 +70,7 @@ statistics. The output is comparable to what GitHub shows on the
 Insights tab but in the command-line and not limited to any git
 forge. It allows you to easily see the top contributors for a
 repository, the most frequently updated files, commits in each branch,
-all time trends, and more.
+all-time trends, and more.
 
 ![Git-insight][git-insight-img]
 
@@ -85,22 +86,23 @@ sudo dnf install git-insight
 ```
 
 
-## Nightly buids
+## Nightly builds
 
 This time we have something completely different but well representing
 one of the main Copr use-cases. That is development (or nightly)
 versions of packages, that are normally in the official Fedora Linux
 repositories. This may be interesting if you want to try the most
-recent version of some software to see if a particular bug was fixed
-or that a new feature behaves as expected. Also, for software
-developers it may be useful to test their software against the most
+recent version of some applications to see if a particular bug was fixed
+or if a new feature behaves as expected. Also, for software
+developers, it may be useful to test their software against the most
 up-to-date dependencies
 
-Many projects builds their nightly versions in Copr, namely
+Many projects build their nightly versions in Copr, namely
 [Dnf][dnf-copr], [Mock][mock-copr], [Firefox][firefox-copr],
 [PipeWire][pipewire-copr], [FreeCAD][freecad-copr],
 [KiCad][kicad-copr], [AwesomeWM][awesomewm-copr],
-[Noevim][neovim-copr], [MicroShift][microshift-copr], and many, many more.
+[Noevim][neovim-copr], [MicroShift][microshift-copr], and many, many
+more.
 
 
 ![Nightly builds][nightly-builds-img]
