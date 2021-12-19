@@ -103,7 +103,7 @@ Many projects builds their nightly versions in Copr, namely
 [Noevim][neovim-copr], [MicroShift][microshift-copr], and many, many more.
 
 
-![Nightly builds][nightly-builds]
+![Nightly builds][nightly-builds-img]
 
 
 [copr]: https://copr.fedorainfracloud.org/
@@ -130,6 +130,7 @@ Many projects builds their nightly versions in Copr, namely
 [git-insight-img]: img/git-insight.png
 
 
+[nightly-builds-img]: img/nightly-builds.png
 [dnf-copr]: https://copr.fedorainfracloud.org/coprs/rpmsoftwaremanagement/dnf-nightly/
 [mock-copr]: https://copr.fedorainfracloud.org/coprs/g/mock/mock/
 [firefox-copr]: https://copr.fedorainfracloud.org/coprs/proletarius101/firefox-nightly/
