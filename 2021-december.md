@@ -7,7 +7,7 @@ transitioned to the official Fedora Linux repositories, and the rest
 is somewhere in between. Copr gives you the opportunity to install 3rd
 party software that is not available in Fedora Linux repositories, try
 nightly versions of your dependencies, use patched builds of your
-favorite tools to support some non-standard use-case, and just
+favorite tools to support some non-standard use-cases, and just
 experiment freely.
 
 If you don't know [how to enable a repository][copr-docs-enable] or if
@@ -66,11 +66,11 @@ sudo dnf install purple-googlechat
 
 ## Git-insight
 [Git-insight][git-insight] renders colorful graphs for git repository
-statistics. The output is comparable to what GitHub shows on the
-Insights tab but in the command-line and not limited to any git
-forge. It allows you to easily see the top contributors for a
-repository, the most frequently updated files, commits in each branch,
-all-time trends, and more.
+statistics. The output is comparable to what GitHub shows in the
+Insights tab of your projects, but in the command-line, and not
+limited to any git forge. It allows you to easily see the top
+contributors, the most frequently updated files, number of commits in
+each branch, all-time trends, and more.
 
 ![Git-insight][git-insight-img]
 
@@ -92,17 +92,16 @@ This time we have something completely different but well representing
 one of the main Copr use-cases. That is development (or nightly)
 versions of packages, that are normally in the official Fedora Linux
 repositories. This may be interesting if you want to try the most
-recent version of some applications to see if a particular bug was fixed
+recent version of some application to see if a particular bug was fixed
 or if a new feature behaves as expected. Also, for software
-developers, it may be useful to test their software against the most
+developers, it may be useful to test their code against the most
 up-to-date dependencies
 
 Many projects build their nightly versions in Copr, namely
 [Dnf][dnf-copr], [Mock][mock-copr], [Firefox][firefox-copr],
 [PipeWire][pipewire-copr], [FreeCAD][freecad-copr],
-[KiCad][kicad-copr], [AwesomeWM][awesomewm-copr],
-[Noevim][neovim-copr], [MicroShift][microshift-copr], and many, many
-more.
+[KiCad][kicad-copr], [Noevim][neovim-copr],
+[MicroShift][microshift-copr], and many, many more.
 
 
 ![Nightly builds][nightly-builds-img]
@@ -110,7 +109,7 @@ more.
 
 [copr]: https://copr.fedorainfracloud.org/
 [copr-docs]: https://docs.pagure.org/copr.copr/user_documentation.html
-[copr-docs-enable]: https://docs.pagure.org/copr.copr/user_documentation.html#how-to-enable-copr-repository
+[copr-docs-enable]: https://docs.pagure.org/copr.copr/how_to_enable_repo.html#how-to-enable-repo
 [copr-docs-security]: https://docs.pagure.org/copr.copr/user_documentation.html#is-it-safe-to-use-copr
 
 
@@ -139,6 +138,5 @@ more.
 [pipewire-copr]: https://copr.fedorainfracloud.org/coprs/mfrey/pipewire-nightly/
 [freecad-copr]: https://copr.fedorainfracloud.org/coprs/g/freecad/nightly/
 [kicad-copr]: https://copr.fedorainfracloud.org/coprs/bearzeng/kicad-nightly/
-[awesomewm-copr]: https://copr.fedorainfracloud.org/coprs/jcrd/awesome-nightly/
 [neovim-copr]:  https://copr.fedorainfracloud.org/coprs/agriffis/neovim-nightly/
 [microshift-copr]: https://copr.fedorainfracloud.org/coprs/g/redhat-et/microshift-nightly/
