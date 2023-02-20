@@ -23,6 +23,8 @@ landed in Copr.
 
 TODO
 
+Please don't use it for passwords
+
 ![Sticky][sticky-img]
 
 ### Installation instructions
@@ -35,22 +37,6 @@ sudo dnf copr enable a-random-linux-lover/sticky
 sudo dnf install sticky
 ```
 
-
-## Umoria
-
-TODO
-
-![Umoria][umoria-img]
-
-### Installation instructions
-
-The [repo][umoria-copr] currently provides Umoria for Fedora
-36, 37, 38, and Fedora Rawhide. To install it, use these commands:
-
-```
-sudo dnf copr enable whitehara/umoria
-sudo dnf install umoria
-```
 
 ## Webapp-manager
 
@@ -70,6 +56,42 @@ sudo dnf install webapp-manager
 ```
 
 
+## Umoria
+
+TODO
+
+![Umoria][umoria-img]
+
+### Installation instructions
+
+The [repo][umoria-copr] currently provides Umoria for Fedora
+36, 37, 38, and Fedora Rawhide. To install it, use these commands:
+
+```
+sudo dnf copr enable whitehara/umoria
+sudo dnf install umoria
+```
+
+
+## PyCharm
+
+TODO
+
+![pycharm][pycharm-img]
+
+### Installation instructions
+
+The [repo][pycharm-copr] currently provides PyCharm for
+Fedora 36, 37, 38, Fedora Rawhide, EPEL 7, 8, and 9. To install it,
+use these commands:
+
+```
+sudo dnf copr enable phracek/PyCharm
+sudo dnf install pycharm-community
+```
+
+
+
 [copr]: https://copr.fedorainfracloud.org/
 [copr-docs]: https://docs.pagure.org/copr.copr/user_documentation.html
 [copr-docs-enable]: https://docs.pagure.org/copr.copr/how_to_enable_repo.html#how-to-enable-repo
@@ -81,11 +103,16 @@ sudo dnf install webapp-manager
 [sticky-img]: img/sticky.png
 
 
+[webapp-manager]: https://github.com/KyleGospo/webapp-manager
+[webapp-manager-copr]: https://copr.fedorainfracloud.org/coprs/kylegospo/webapp-manager/
+[webapp-manager-img]: img/webapp-manager.png
+
+
 [umoria]: https://umoria.org/
 [umoria-copr]: https://copr.fedorainfracloud.org/coprs/whitehara/umoria/
 [umoria-img]: img/umoria.png
 
 
-[webapp-manager]: https://github.com/KyleGospo/webapp-manager
-[webapp-manager-copr]: https://copr.fedorainfracloud.org/coprs/kylegospo/webapp-manager/
-[webapp-manager-img]: img/webapp-manager.png
+[pycharm]: https://www.jetbrains.com/pycharm/
+[pycharm-copr]: https://copr.fedorainfracloud.org/coprs/phracek/PyCharm/
+[pycharm-img]: img/pycharm.png
