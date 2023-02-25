@@ -21,9 +21,12 @@ landed in Copr.
 
 ## Sticky
 
-TODO
-
-Please don't use it for passwords
+Do you always forget your passwords and like to write them on sticky
+notes and post them all around your monitor? Well, please don't use
+[Sticky][sticky] for that. But it is a great note-taking application
+with support for text formatting, spell-checking, checklists, backups,
+and so on. It also supports adjusting note visibility and organizing
+notes into groups.
 
 ![Sticky][sticky-img]
 
@@ -40,7 +43,11 @@ sudo dnf install sticky
 
 ## Webapp-manager
 
-TODO
+Generations of programmers spent over three decades creating,
+improving, and re-inventing [window managers][window-manager] for us
+to disregard all of that, and live inside of a web browser with dozens
+of tabs. [Webapp-manager][webapp-manager] allows you to run websites
+as if they were applications, and return to the previous paradigm.
 
 ![webapp-manager][webapp-manager-img]
 
@@ -58,7 +65,12 @@ sudo dnf install webapp-manager
 
 ## Umoria
 
-TODO
+[Umoria][umoria] (The Dungeons of Moria) is a singleplayer dungeon
+crawl game inspired by J. R. R. Tolkien's novel The Lord of the
+Rings. It is considered to be the first [roguelike][roguelike]
+game ever created. A player begins their adventure by acquiring
+weapons and supplies in the town level and then descends to the
+dungeons to face the evil that lurks beneath.
 
 ![Umoria][umoria-img]
 
@@ -75,7 +87,15 @@ sudo dnf install umoria
 
 ## PyCharm
 
-TODO
+JetBrains [PyCharm][pycharm] is a popular IDE for python programming
+language. It provides intelligent code completion, on-the-fly error
+checking, quick fixes, and much more. The [phracek/PyCharm][pycharm-copr]
+repository is a great example of a well-maintained project that lives
+in Copr for a long time. It was created eight years ago for Fedora 20,
+and it provided support for every subsequent Fedora release. It is now
+a part of the [Third-Party Repositories][third-party] repositories
+that can be opted in during the Fedora installation.
+
 
 ![pycharm][pycharm-img]
 
@@ -89,7 +109,6 @@ use these commands:
 sudo dnf copr enable phracek/PyCharm
 sudo dnf install pycharm-community
 ```
-
 
 
 [copr]: https://copr.fedorainfracloud.org/
@@ -106,13 +125,16 @@ sudo dnf install pycharm-community
 [webapp-manager]: https://github.com/KyleGospo/webapp-manager
 [webapp-manager-copr]: https://copr.fedorainfracloud.org/coprs/kylegospo/webapp-manager/
 [webapp-manager-img]: img/webapp-manager.png
+[window-manager]: https://en.wikipedia.org/wiki/Window_manager
 
 
 [umoria]: https://umoria.org/
 [umoria-copr]: https://copr.fedorainfracloud.org/coprs/whitehara/umoria/
 [umoria-img]: img/umoria.png
+[roguelike]: https://en.wikipedia.org/wiki/Roguelike
 
 
 [pycharm]: https://www.jetbrains.com/pycharm/
 [pycharm-copr]: https://copr.fedorainfracloud.org/coprs/phracek/PyCharm/
 [pycharm-img]: img/pycharm.png
+[third-party]: https://docs.fedoraproject.org/en-US/workstation-working-group/third-party-repos/
