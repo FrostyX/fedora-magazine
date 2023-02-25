@@ -21,10 +21,10 @@ landed in Copr.
 
 ## Sticky
 
-Do you always forget your passwords and like to write them on sticky
-notes and post them all around your monitor? Well, please don't use
+Do you always forget your passwords, write them on sticky notes and
+post them all around your monitor? Well, please don't use
 [Sticky][sticky] for that. But it is a great note-taking application
-with support for text formatting, spell-checking, checklists, backups,
+with support for checklists, text formatting, spell-checking, backups,
 and so on. It also supports adjusting note visibility and organizing
 notes into groups.
 
@@ -65,10 +65,10 @@ sudo dnf install webapp-manager
 
 ## Umoria
 
-[Umoria][umoria] (The Dungeons of Moria) is a singleplayer dungeon
+[Umoria][umoria] (The Dungeons of Moria) is a single-player dungeon
 crawl game inspired by J. R. R. Tolkien's novel The Lord of the
 Rings. It is considered to be the first [roguelike][roguelike]
-game ever created. A player begins their adventure by acquiring
+game ever created. A player begins their epic adventure by acquiring
 weapons and supplies in the town level and then descends to the
 dungeons to face the evil that lurks beneath.
 
